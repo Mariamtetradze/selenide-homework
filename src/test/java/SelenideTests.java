@@ -31,7 +31,7 @@ public class SelenideTests {
     }
 
     @Test
-    public void collectionAssertion() {
+    public void bookStoreTest() {
         Configuration.startMaximized = true;
         Selenide.open("https://demoqa.com/text-box");
         $("#userName").setValue("name");
